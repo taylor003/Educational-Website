@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UACpmpatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Responsive Online Education Tutor Website Design</title>
+
+ <!-- swiper css link -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="./emailStyle.css">
+
+</head>
+<body>
+
+ <!-- header section -->
+ <header class="header">
+
+ <section class="flex">
+
+  <a href="#home" class="logo">educa.</a>
+
+  <nav class="navbar">
+    <a href="../../index.html">home</a>
+    <a href="../../index.html">about</a>
+    <a href="../../index.html">courses</a>
+    <a href="../../index.html">teachers</a>
+    <a href="../../index.html">reviews</a>
+    <a href="../../index.html">contact</a>
+  </nav>
+
+  <div id="menu-btn" class="fas fa-bars"></div>
+ </section>
+ </header>
+
+ <!-- main body section ends -->
+
+ <section class="math" id="math">
+
+   <h1 class="heading">major topics on <span>offer</span></h1>
+
+ <div class="swiper topic-slider">
+
+
+
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide slide">
+      <img src="./images/intergration.jpeg" alt="">
+      <h3>Intergration</h3>
+      <p>In Maths, integration is a method of adding or summing up the parts to find the whole. It is a reverse process of differentiation, where we reduce the functions into parts. This method is used to find the summation under a vast scale.</p>
+    </div>
+
+    <div class="swiper-slide slide">
+      <img src="./images/algebra.jpg" alt="">
+      <h3>Algebraic Expretions</h3>
+      <p>Algebra is the part of mathematics that helps represent problems or situations in the form of mathematical expressions.</p>
+    </div>
+
+    <div class="swiper-slide slide">
+      <img src="./images/linear-equations.jpg" alt="">
+      <h3>Linear Equations</h3>
+      <p>These are equation in which the highest power of the variable is always 1. It is also known as a one-degree equation. The standard form of a linear equation in one variable is of the form Ax + B = 0. Here, x is a variable, A is a coefficient and B is constant.</p>
+    </div>
+
+    <div class="swiper-slide slide">
+      <img src="./images/indicies.jpg" alt="">
+      <h3>Indicies</h3>
+      <p>An index can also be a fraction such as ½, ¾, or 2.5. What is a logarithm? The logarithm of a number is the power that the base must be raised to, to give that number.</p>
+    </div>
+
+
+
+  </div>
+
+ </div>
+ </section>
+
+
+ <section class="send">
+  <div class="container">
+   <form action="https://formspree.io/f/mrgnrjdr" method="POST">
+    <h2 class="heading">Get in<span> touch</span></h2>
+      <input type="text" name="Topic" id="name" placeholder="Math topic">
+      <input type="text" name="Number" id="phone" placeholder="WhatsApp line">
+      <input type="email" name="Email" id="eamil" placeholder="email.@com">
+      <button type="submit" class="btn">submit</button>
+    </form>
+  </div>
+</section>
+
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ 
+<script src="./js/script.js"></script>
+<script src="./js/email.js"></script>
+</body>
+</html>
